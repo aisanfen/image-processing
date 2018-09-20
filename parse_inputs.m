@@ -25,8 +25,8 @@ switch nargin
         A=varargin{1};
         x1=varargin{2}(1);
         x2=varargin{2}(2);
-        y1=varargin{2}(1);
-        y2=varargin{2}(2);
+        y1=varargin{3}(1);
+        y2=varargin{3}(2);
     case 4  %imgrayscaling(I,map,[x1,x2],[y1,y2])
         A=varargin{1};
         map=varargin{2};
